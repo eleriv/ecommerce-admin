@@ -20,7 +20,7 @@ export const Modal: React.FC<ModalProps> = ({
     title,
     description,
     isOpen,
-    isClose,
+    onClose,
     children
 }) => {
     const onChange = (open:boolean) => {
